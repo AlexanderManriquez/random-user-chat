@@ -1,5 +1,10 @@
-# Vue 3 + Vite
+## Desafío Consumo de Datos desde una API REST
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+✳️ En este desafío validamos nuestros conocimientos del consumo de API’s. Para lograrlo, se utilizó el ciclo de vida de un componente para consumir una API justo luego de
+renderizar la aplicación.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+✳️ Para el uso de la aplicación utilizamos un ciclo Mounted, para que una vez cargada la aplicación se muestren en un chat las imagenes y nombres de 2 usuarios obtenidos aleatoriamente desde la <a href="https://randomuser.me/">Random User API</a>, utilizando Axios para este fin. De igual manera se agregó un botón que permite generar 2 usuarios aleatorios nuevamente.
+
+Si quieres probar la aplicación, pincha el siguiente enlace:
+
+🟢 <a href="https://random-user-chat.vercel.app/">Chat de Usuarios Aleatorios</a>
