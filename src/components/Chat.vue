@@ -28,7 +28,7 @@ export default {
 <style scoped>
 .chat-display {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   border: 1px solid #ddd;
